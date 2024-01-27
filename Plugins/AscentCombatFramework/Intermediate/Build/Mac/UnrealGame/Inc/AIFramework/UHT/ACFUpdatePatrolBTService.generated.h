@@ -1,0 +1,66 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "BehavioralThree/ACFUpdatePatrolBTService.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef AIFRAMEWORK_ACFUpdatePatrolBTService_generated_h
+#error "ACFUpdatePatrolBTService.generated.h already included, missing '#pragma once' in ACFUpdatePatrolBTService.h"
+#endif
+#define AIFRAMEWORK_ACFUpdatePatrolBTService_generated_h
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_BehavioralThree_ACFUpdatePatrolBTService_h_15_SPARSE_DATA
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_BehavioralThree_ACFUpdatePatrolBTService_h_15_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_BehavioralThree_ACFUpdatePatrolBTService_h_15_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_BehavioralThree_ACFUpdatePatrolBTService_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_BehavioralThree_ACFUpdatePatrolBTService_h_15_ACCESSORS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_BehavioralThree_ACFUpdatePatrolBTService_h_15_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUACFUpdatePatrolBTService(); \
+	friend struct Z_Construct_UClass_UACFUpdatePatrolBTService_Statics; \
+public: \
+	DECLARE_CLASS(UACFUpdatePatrolBTService, UBTService, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AIFramework"), NO_API) \
+	DECLARE_SERIALIZER(UACFUpdatePatrolBTService)
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_BehavioralThree_ACFUpdatePatrolBTService_h_15_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UACFUpdatePatrolBTService(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UACFUpdatePatrolBTService(UACFUpdatePatrolBTService&&); \
+	NO_API UACFUpdatePatrolBTService(const UACFUpdatePatrolBTService&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UACFUpdatePatrolBTService); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UACFUpdatePatrolBTService); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UACFUpdatePatrolBTService) \
+	NO_API virtual ~UACFUpdatePatrolBTService();
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_BehavioralThree_ACFUpdatePatrolBTService_h_12_PROLOG
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_BehavioralThree_ACFUpdatePatrolBTService_h_15_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_BehavioralThree_ACFUpdatePatrolBTService_h_15_SPARSE_DATA \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_BehavioralThree_ACFUpdatePatrolBTService_h_15_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_BehavioralThree_ACFUpdatePatrolBTService_h_15_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_BehavioralThree_ACFUpdatePatrolBTService_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_BehavioralThree_ACFUpdatePatrolBTService_h_15_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_BehavioralThree_ACFUpdatePatrolBTService_h_15_INCLASS_NO_PURE_DECLS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_BehavioralThree_ACFUpdatePatrolBTService_h_15_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> AIFRAMEWORK_API UClass* StaticClass<class UACFUpdatePatrolBTService>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_BehavioralThree_ACFUpdatePatrolBTService_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

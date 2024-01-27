@@ -1,0 +1,95 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Components/ACFDamageHandlerComponent.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
+class AController;
+enum class ETeam : uint8;
+struct FACFDamageEvent;
+struct FDamageEvent;
+struct FGameplayTag;
+#ifdef ASCENTCOMBATFRAMEWORK_ACFDamageHandlerComponent_generated_h
+#error "ACFDamageHandlerComponent.generated.h already included, missing '#pragma once' in ACFDamageHandlerComponent.h"
+#endif
+#define ASCENTCOMBATFRAMEWORK_ACFDamageHandlerComponent_generated_h
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFDamageHandlerComponent_h_19_DELEGATE \
+ASCENTCOMBATFRAMEWORK_API void FOnCharacterDeath_DelegateWrapper(const FMulticastScriptDelegate& OnCharacterDeath);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFDamageHandlerComponent_h_23_SPARSE_DATA
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFDamageHandlerComponent_h_23_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFDamageHandlerComponent_h_23_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFDamageHandlerComponent_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual void ClientsReceiveDamage_Implementation(FACFDamageEvent const& damageEvent); \
+	virtual void Revive_Implementation(); \
+ \
+	DECLARE_FUNCTION(execHandleStatReachedZero); \
+	DECLARE_FUNCTION(execClientsReceiveDamage); \
+	DECLARE_FUNCTION(execRevive); \
+	DECLARE_FUNCTION(execGetIsAlive); \
+	DECLARE_FUNCTION(execTakeDamage); \
+	DECLARE_FUNCTION(execInitializeDamageCollisions); \
+	DECLARE_FUNCTION(execGetLastDamageInfo);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFDamageHandlerComponent_h_23_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFDamageHandlerComponent_h_23_CALLBACK_WRAPPERS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFDamageHandlerComponent_h_23_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUACFDamageHandlerComponent(); \
+	friend struct Z_Construct_UClass_UACFDamageHandlerComponent_Statics; \
+public: \
+	DECLARE_CLASS(UACFDamageHandlerComponent, UActorComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/AscentCombatFramework"), NO_API) \
+	DECLARE_SERIALIZER(UACFDamageHandlerComponent) \
+	NO_API void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override; \
+	enum class ENetFields_Private : uint16 \
+	{ \
+		NETFIELD_REP_START=(uint16)((int32)Super::ENetFields_Private::NETFIELD_REP_END + (int32)1), \
+		bIsAlive=NETFIELD_REP_START, \
+		NETFIELD_REP_END=bIsAlive	}; \
+	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFDamageHandlerComponent_h_23_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UACFDamageHandlerComponent(UACFDamageHandlerComponent&&); \
+	NO_API UACFDamageHandlerComponent(const UACFDamageHandlerComponent&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UACFDamageHandlerComponent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UACFDamageHandlerComponent); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UACFDamageHandlerComponent) \
+	NO_API virtual ~UACFDamageHandlerComponent();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFDamageHandlerComponent_h_21_PROLOG
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFDamageHandlerComponent_h_23_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFDamageHandlerComponent_h_23_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFDamageHandlerComponent_h_23_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFDamageHandlerComponent_h_23_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFDamageHandlerComponent_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFDamageHandlerComponent_h_23_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFDamageHandlerComponent_h_23_CALLBACK_WRAPPERS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFDamageHandlerComponent_h_23_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFDamageHandlerComponent_h_23_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> ASCENTCOMBATFRAMEWORK_API UClass* StaticClass<class UACFDamageHandlerComponent>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFDamageHandlerComponent_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

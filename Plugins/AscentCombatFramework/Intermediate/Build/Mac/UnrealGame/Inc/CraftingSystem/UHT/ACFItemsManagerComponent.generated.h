@@ -1,0 +1,104 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "ACFItemsManagerComponent.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class APawn;
+class UACFCraftingComponent;
+class UACFVendorComponent;
+struct FACFCraftingRecipe;
+struct FACFItemGenerationRule;
+struct FBaseItem;
+struct FInventoryItem;
+struct FItemGenerationSlot;
+#ifdef CRAFTINGSYSTEM_ACFItemsManagerComponent_generated_h
+#error "ACFItemsManagerComponent.generated.h already included, missing '#pragma once' in ACFItemsManagerComponent.h"
+#endif
+#define CRAFTINGSYSTEM_ACFItemsManagerComponent_generated_h
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CraftingSystem_Public_ACFItemsManagerComponent_h_15_DELEGATE \
+CRAFTINGSYSTEM_API void FOnItemCrafted_DelegateWrapper(const FMulticastScriptDelegate& OnItemCrafted, FACFCraftingRecipe const& recipe);
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CraftingSystem_Public_ACFItemsManagerComponent_h_16_DELEGATE \
+CRAFTINGSYSTEM_API void FOnItemSold_DelegateWrapper(const FMulticastScriptDelegate& OnItemSold, FInventoryItem const& item);
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CraftingSystem_Public_ACFItemsManagerComponent_h_17_DELEGATE \
+CRAFTINGSYSTEM_API void FOnItemPurchased_DelegateWrapper(const FMulticastScriptDelegate& OnItemPurchased, FBaseItem const& item);
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CraftingSystem_Public_ACFItemsManagerComponent_h_18_DELEGATE \
+CRAFTINGSYSTEM_API void FOnItemUpgraded_DelegateWrapper(const FMulticastScriptDelegate& OnItemUpgraded, FInventoryItem const& item);
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CraftingSystem_Public_ACFItemsManagerComponent_h_22_SPARSE_DATA
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CraftingSystem_Public_ACFItemsManagerComponent_h_22_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CraftingSystem_Public_ACFItemsManagerComponent_h_22_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CraftingSystem_Public_ACFItemsManagerComponent_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual void UpgradeItem_Implementation(FInventoryItem const& itemToUpgrade, APawn* instigator, UACFCraftingComponent* craftingComp); \
+	virtual void CraftItem_Implementation(FACFCraftingRecipe const& ItemToCraft, APawn* instigator, UACFCraftingComponent* craftingComp); \
+	virtual void SellItemsToVendor_Implementation(FInventoryItem const& itemTobeSold, APawn* instigator, int32 count, UACFVendorComponent* vendorComp); \
+	virtual void BuyItems_Implementation(FBaseItem const& item, APawn* instigator, UACFVendorComponent* vendorComp); \
+ \
+	DECLARE_FUNCTION(execUpgradeItem); \
+	DECLARE_FUNCTION(execCraftItem); \
+	DECLARE_FUNCTION(execSellItemsToVendor); \
+	DECLARE_FUNCTION(execBuyItems); \
+	DECLARE_FUNCTION(execDoesSlotMatchesRule); \
+	DECLARE_FUNCTION(execGenerateItemFromRule); \
+	DECLARE_FUNCTION(execGenerateItemsFromRules);
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CraftingSystem_Public_ACFItemsManagerComponent_h_22_ACCESSORS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CraftingSystem_Public_ACFItemsManagerComponent_h_22_CALLBACK_WRAPPERS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CraftingSystem_Public_ACFItemsManagerComponent_h_22_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUACFItemsManagerComponent(); \
+	friend struct Z_Construct_UClass_UACFItemsManagerComponent_Statics; \
+public: \
+	DECLARE_CLASS(UACFItemsManagerComponent, UActorComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/CraftingSystem"), NO_API) \
+	DECLARE_SERIALIZER(UACFItemsManagerComponent)
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CraftingSystem_Public_ACFItemsManagerComponent_h_22_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UACFItemsManagerComponent(UACFItemsManagerComponent&&); \
+	NO_API UACFItemsManagerComponent(const UACFItemsManagerComponent&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UACFItemsManagerComponent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UACFItemsManagerComponent); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UACFItemsManagerComponent) \
+	NO_API virtual ~UACFItemsManagerComponent();
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CraftingSystem_Public_ACFItemsManagerComponent_h_20_PROLOG
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CraftingSystem_Public_ACFItemsManagerComponent_h_22_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CraftingSystem_Public_ACFItemsManagerComponent_h_22_SPARSE_DATA \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CraftingSystem_Public_ACFItemsManagerComponent_h_22_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CraftingSystem_Public_ACFItemsManagerComponent_h_22_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CraftingSystem_Public_ACFItemsManagerComponent_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CraftingSystem_Public_ACFItemsManagerComponent_h_22_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CraftingSystem_Public_ACFItemsManagerComponent_h_22_CALLBACK_WRAPPERS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CraftingSystem_Public_ACFItemsManagerComponent_h_22_INCLASS_NO_PURE_DECLS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CraftingSystem_Public_ACFItemsManagerComponent_h_22_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> CRAFTINGSYSTEM_API UClass* StaticClass<class UACFItemsManagerComponent>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CraftingSystem_Public_ACFItemsManagerComponent_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

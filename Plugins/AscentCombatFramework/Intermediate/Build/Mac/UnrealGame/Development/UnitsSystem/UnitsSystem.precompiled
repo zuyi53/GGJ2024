@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"../../../arm64/UnrealGame/Development/UnitsSystem/Module.UnitsSystem.cpp.o",
+		"../../../arm64/UnrealGame/Development/UnitsSystem/Module.UnitsSystem.cpp.o",
+		"../../../x64/UnrealGame/Development/UnitsSystem/Module.UnitsSystem.cpp.o",
+		"../../../x64/UnrealGame/Development/UnitsSystem/Module.UnitsSystem.cpp.o"
+	]
+}

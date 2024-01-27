@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"../../../arm64/UnrealGame/Shipping/AdvancedRPGSystem/Module.AdvancedRPGSystem.cpp.o",
+		"../../../arm64/UnrealGame/Shipping/AdvancedRPGSystem/Module.AdvancedRPGSystem.cpp.o",
+		"../../../x64/UnrealGame/Shipping/AdvancedRPGSystem/Module.AdvancedRPGSystem.cpp.o",
+		"../../../x64/UnrealGame/Shipping/AdvancedRPGSystem/Module.AdvancedRPGSystem.cpp.o"
+	]
+}

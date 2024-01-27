@@ -1,0 +1,87 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "ACMEffectsDispatcherComponent.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class ACharacter;
+class UDamageType;
+class UPhysicalMaterial;
+struct FActionEffect;
+struct FBaseFX;
+struct FImpactFX;
+#ifdef COLLISIONSMANAGER_ACMEffectsDispatcherComponent_generated_h
+#error "ACMEffectsDispatcherComponent.generated.h already included, missing '#pragma once' in ACMEffectsDispatcherComponent.h"
+#endif
+#define COLLISIONSMANAGER_ACMEffectsDispatcherComponent_generated_h
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CollisionsManager_Public_ACMEffectsDispatcherComponent_h_14_SPARSE_DATA
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CollisionsManager_Public_ACMEffectsDispatcherComponent_h_14_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CollisionsManager_Public_ACMEffectsDispatcherComponent_h_14_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CollisionsManager_Public_ACMEffectsDispatcherComponent_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual void PlayReplicatedEffect_Implementation(FImpactFX const& FXtoPlay); \
+	virtual void PlayReplicatedActionEffect_Implementation(FActionEffect const& effect, ACharacter* instigator); \
+	virtual void ClientsPlayReplicatedEffect_Implementation(FImpactFX const& FXtoPlay); \
+	virtual void ClientsPlayEffect_Implementation(FActionEffect const& effect, ACharacter* instigator); \
+ \
+	DECLARE_FUNCTION(execTryGetImpactFX); \
+	DECLARE_FUNCTION(execPlayEffectLocally); \
+	DECLARE_FUNCTION(execPlayReplicatedEffect); \
+	DECLARE_FUNCTION(execPlayReplicatedImpact); \
+	DECLARE_FUNCTION(execPlayActionEffectLocally); \
+	DECLARE_FUNCTION(execPlayReplicatedActionEffect); \
+	DECLARE_FUNCTION(execClientsPlayReplicatedEffect); \
+	DECLARE_FUNCTION(execClientsPlayEffect);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CollisionsManager_Public_ACMEffectsDispatcherComponent_h_14_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CollisionsManager_Public_ACMEffectsDispatcherComponent_h_14_CALLBACK_WRAPPERS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CollisionsManager_Public_ACMEffectsDispatcherComponent_h_14_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUACMEffectsDispatcherComponent(); \
+	friend struct Z_Construct_UClass_UACMEffectsDispatcherComponent_Statics; \
+public: \
+	DECLARE_CLASS(UACMEffectsDispatcherComponent, UActorComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/CollisionsManager"), NO_API) \
+	DECLARE_SERIALIZER(UACMEffectsDispatcherComponent)
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CollisionsManager_Public_ACMEffectsDispatcherComponent_h_14_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UACMEffectsDispatcherComponent(UACMEffectsDispatcherComponent&&); \
+	NO_API UACMEffectsDispatcherComponent(const UACMEffectsDispatcherComponent&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UACMEffectsDispatcherComponent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UACMEffectsDispatcherComponent); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UACMEffectsDispatcherComponent) \
+	NO_API virtual ~UACMEffectsDispatcherComponent();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CollisionsManager_Public_ACMEffectsDispatcherComponent_h_11_PROLOG
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CollisionsManager_Public_ACMEffectsDispatcherComponent_h_14_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CollisionsManager_Public_ACMEffectsDispatcherComponent_h_14_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CollisionsManager_Public_ACMEffectsDispatcherComponent_h_14_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CollisionsManager_Public_ACMEffectsDispatcherComponent_h_14_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CollisionsManager_Public_ACMEffectsDispatcherComponent_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CollisionsManager_Public_ACMEffectsDispatcherComponent_h_14_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CollisionsManager_Public_ACMEffectsDispatcherComponent_h_14_CALLBACK_WRAPPERS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CollisionsManager_Public_ACMEffectsDispatcherComponent_h_14_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CollisionsManager_Public_ACMEffectsDispatcherComponent_h_14_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> COLLISIONSMANAGER_API UClass* StaticClass<class UACMEffectsDispatcherComponent>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CollisionsManager_Public_ACMEffectsDispatcherComponent_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

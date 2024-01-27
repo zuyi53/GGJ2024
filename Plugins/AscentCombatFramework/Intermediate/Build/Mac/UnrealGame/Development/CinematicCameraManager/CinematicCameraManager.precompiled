@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"../../../arm64/UnrealGame/Development/CinematicCameraManager/Module.CinematicCameraManager.cpp.o",
+		"../../../arm64/UnrealGame/Development/CinematicCameraManager/Module.CinematicCameraManager.cpp.o",
+		"../../../x64/UnrealGame/Development/CinematicCameraManager/Module.CinematicCameraManager.cpp.o",
+		"../../../x64/UnrealGame/Development/CinematicCameraManager/Module.CinematicCameraManager.cpp.o"
+	]
+}

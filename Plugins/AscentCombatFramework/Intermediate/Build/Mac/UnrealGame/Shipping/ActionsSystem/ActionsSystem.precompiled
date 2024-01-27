@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"../../../arm64/UnrealGame/Shipping/ActionsSystem/Module.ActionsSystem.cpp.o",
+		"../../../arm64/UnrealGame/Shipping/ActionsSystem/Module.ActionsSystem.cpp.o",
+		"../../../x64/UnrealGame/Shipping/ActionsSystem/Module.ActionsSystem.cpp.o",
+		"../../../x64/UnrealGame/Shipping/ActionsSystem/Module.ActionsSystem.cpp.o"
+	]
+}
