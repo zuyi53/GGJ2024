@@ -75,3 +75,7 @@ DerivedDataCache/*
 
 
 !Plugins/AscentCombatFramework/**/*
+Content/Developers/
+Source/**/*
+Plugins/AscentCombatFramework/Intermediate/*/**
+Plugins/AscentCombatFramework/Binaries/*
