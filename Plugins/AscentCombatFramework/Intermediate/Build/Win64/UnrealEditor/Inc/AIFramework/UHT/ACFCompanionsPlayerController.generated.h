@@ -1,0 +1,81 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Groups/ACFCompanionsPlayerController.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AACFCharacter;
+class UACFCompanionGroupAIComponent;
+class UACFGroupAIComponent;
+#ifdef AIFRAMEWORK_ACFCompanionsPlayerController_generated_h
+#error "ACFCompanionsPlayerController.generated.h already included, missing '#pragma once' in ACFCompanionsPlayerController.h"
+#endif
+#define AIFRAMEWORK_ACFCompanionsPlayerController_generated_h
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Groups_ACFCompanionsPlayerController_h_15_SPARSE_DATA
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Groups_ACFCompanionsPlayerController_h_15_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Groups_ACFCompanionsPlayerController_h_15_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Groups_ACFCompanionsPlayerController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual bool SwitchPossessionToCharacer_Validate(AACFCharacter* , float ); \
+	virtual void SwitchPossessionToCharacer_Implementation(AACFCharacter* inCharacter, float blendTime); \
+ \
+	DECLARE_FUNCTION(execInternal_SwitchPossessionTo); \
+	DECLARE_FUNCTION(execGetCompanionsComponent); \
+	DECLARE_FUNCTION(execIsPartOfGroup); \
+	DECLARE_FUNCTION(execGetOwningGroup); \
+	DECLARE_FUNCTION(execSwitchPossessionToCharacer); \
+	DECLARE_FUNCTION(execSwitchToNearestCompanion);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Groups_ACFCompanionsPlayerController_h_15_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Groups_ACFCompanionsPlayerController_h_15_CALLBACK_WRAPPERS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Groups_ACFCompanionsPlayerController_h_15_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesAACFCompanionsPlayerController(); \
+	friend struct Z_Construct_UClass_AACFCompanionsPlayerController_Statics; \
+public: \
+	DECLARE_CLASS(AACFCompanionsPlayerController, AACFPlayerController, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/AIFramework"), NO_API) \
+	DECLARE_SERIALIZER(AACFCompanionsPlayerController) \
+	virtual UObject* _getUObject() const override { return const_cast<AACFCompanionsPlayerController*>(this); }
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Groups_ACFCompanionsPlayerController_h_15_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API AACFCompanionsPlayerController(AACFCompanionsPlayerController&&); \
+	NO_API AACFCompanionsPlayerController(const AACFCompanionsPlayerController&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AACFCompanionsPlayerController); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AACFCompanionsPlayerController); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AACFCompanionsPlayerController) \
+	NO_API virtual ~AACFCompanionsPlayerController();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Groups_ACFCompanionsPlayerController_h_12_PROLOG
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Groups_ACFCompanionsPlayerController_h_15_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Groups_ACFCompanionsPlayerController_h_15_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Groups_ACFCompanionsPlayerController_h_15_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Groups_ACFCompanionsPlayerController_h_15_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Groups_ACFCompanionsPlayerController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Groups_ACFCompanionsPlayerController_h_15_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Groups_ACFCompanionsPlayerController_h_15_CALLBACK_WRAPPERS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Groups_ACFCompanionsPlayerController_h_15_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Groups_ACFCompanionsPlayerController_h_15_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> AIFRAMEWORK_API UClass* StaticClass<class AACFCompanionsPlayerController>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Groups_ACFCompanionsPlayerController_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

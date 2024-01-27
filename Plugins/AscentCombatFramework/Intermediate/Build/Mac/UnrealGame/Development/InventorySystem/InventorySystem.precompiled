@@ -1,0 +1,20 @@
+{
+	"OutputFiles": [
+		"../../../arm64/UnrealGame/Development/InventorySystem/Module.InventorySystem.1.cpp.o",
+		"../../../arm64/UnrealGame/Development/InventorySystem/Module.InventorySystem.2.cpp.o",
+		"../../../arm64/UnrealGame/Development/InventorySystem/Module.InventorySystem.3.cpp.o",
+		"../../../arm64/UnrealGame/Development/InventorySystem/Module.InventorySystem.4.cpp.o",
+		"../../../arm64/UnrealGame/Development/InventorySystem/Module.InventorySystem.1.cpp.o",
+		"../../../arm64/UnrealGame/Development/InventorySystem/Module.InventorySystem.2.cpp.o",
+		"../../../arm64/UnrealGame/Development/InventorySystem/Module.InventorySystem.3.cpp.o",
+		"../../../arm64/UnrealGame/Development/InventorySystem/Module.InventorySystem.4.cpp.o",
+		"../../../x64/UnrealGame/Development/InventorySystem/Module.InventorySystem.1.cpp.o",
+		"../../../x64/UnrealGame/Development/InventorySystem/Module.InventorySystem.2.cpp.o",
+		"../../../x64/UnrealGame/Development/InventorySystem/Module.InventorySystem.3.cpp.o",
+		"../../../x64/UnrealGame/Development/InventorySystem/Module.InventorySystem.4.cpp.o",
+		"../../../x64/UnrealGame/Development/InventorySystem/Module.InventorySystem.1.cpp.o",
+		"../../../x64/UnrealGame/Development/InventorySystem/Module.InventorySystem.2.cpp.o",
+		"../../../x64/UnrealGame/Development/InventorySystem/Module.InventorySystem.3.cpp.o",
+		"../../../x64/UnrealGame/Development/InventorySystem/Module.InventorySystem.4.cpp.o"
+	]
+}

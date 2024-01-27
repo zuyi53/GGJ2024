@@ -1,0 +1,27 @@
+{
+	"BuildId": "27405482",
+	"Modules": 
+	{
+		"AIFramework": "UnrealEditor-AIFramework.dll",
+		"ActionsSystem": "UnrealEditor-ActionsSystem.dll",
+		"AdvancedRPGSystem": "UnrealEditor-AdvancedRPGSystem.dll",
+		"AscentCombatFramework": "UnrealEditor-AscentCombatFramework.dll",
+		"AscentCoreInterfaces": "UnrealEditor-AscentCoreInterfaces.dll",
+		"AscentEditor": "UnrealEditor-AscentEditor.dll",
+		"AscentEditorExtensions": "UnrealEditor-AscentEditorExtensions.dll",
+		"AscentSaveSystem": "UnrealEditor-AscentSaveSystem.dll",
+		"CharacterController": "UnrealEditor-CharacterController.dll",
+		"CinematicCameraManager": "UnrealEditor-CinematicCameraManager.dll",
+		"CollisionsManager": "UnrealEditor-CollisionsManager.dll",
+		"CombinedAnimationsSystem": "UnrealEditor-CombinedAnimationsSystem.dll",
+		"CraftingSystem": "UnrealEditor-CraftingSystem.dll",
+		"ExecutionsSystem": "UnrealEditor-ExecutionsSystem.dll",
+		"InventorySystem": "UnrealEditor-InventorySystem.dll",
+		"MountSystem": "UnrealEditor-MountSystem.dll",
+		"MusicManager": "UnrealEditor-MusicManager.dll",
+		"SpellActions": "UnrealEditor-SpellActions.dll",
+		"TargetingSystem": "UnrealEditor-TargetingSystem.dll",
+		"UnitsSystem": "UnrealEditor-UnitsSystem.dll",
+		"VehicleSystem": "UnrealEditor-VehicleSystem.dll"
+	}
+}

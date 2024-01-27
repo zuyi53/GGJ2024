@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\AscentCombatFramework\\Module.AscentCombatFramework.1.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\AscentCombatFramework\\Module.AscentCombatFramework.2.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\AscentCombatFramework\\Module.AscentCombatFramework.3.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\AscentCombatFramework\\Module.AscentCombatFramework.4.cpp.obj"
+	]
+}

@@ -1,0 +1,80 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Components/ACFThreatManagerComponent.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
+#ifdef AIFRAMEWORK_ACFThreatManagerComponent_generated_h
+#error "ACFThreatManagerComponent.generated.h already included, missing '#pragma once' in ACFThreatManagerComponent.h"
+#endif
+#define AIFRAMEWORK_ACFThreatManagerComponent_generated_h
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Components_ACFThreatManagerComponent_h_11_DELEGATE \
+AIFRAMEWORK_API void FOnNewMaxThreateningActor_DelegateWrapper(const FMulticastScriptDelegate& OnNewMaxThreateningActor, AActor* threatening);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Components_ACFThreatManagerComponent_h_15_SPARSE_DATA
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Components_ACFThreatManagerComponent_h_15_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Components_ACFThreatManagerComponent_h_15_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Components_ACFThreatManagerComponent_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execRemoveThreatening); \
+	DECLARE_FUNCTION(execGetDefaultThreatForActor); \
+	DECLARE_FUNCTION(execGetThreatMultForActor); \
+	DECLARE_FUNCTION(execIsThreatening); \
+	DECLARE_FUNCTION(execIsActorAPotentialThreat); \
+	DECLARE_FUNCTION(execGetActorWithHigherThreat); \
+	DECLARE_FUNCTION(execRemoveThreat); \
+	DECLARE_FUNCTION(execAddThreat);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Components_ACFThreatManagerComponent_h_15_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Components_ACFThreatManagerComponent_h_15_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUACFThreatManagerComponent(); \
+	friend struct Z_Construct_UClass_UACFThreatManagerComponent_Statics; \
+public: \
+	DECLARE_CLASS(UACFThreatManagerComponent, UActorComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/AIFramework"), NO_API) \
+	DECLARE_SERIALIZER(UACFThreatManagerComponent)
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Components_ACFThreatManagerComponent_h_15_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UACFThreatManagerComponent(UACFThreatManagerComponent&&); \
+	NO_API UACFThreatManagerComponent(const UACFThreatManagerComponent&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UACFThreatManagerComponent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UACFThreatManagerComponent); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UACFThreatManagerComponent) \
+	NO_API virtual ~UACFThreatManagerComponent();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Components_ACFThreatManagerComponent_h_13_PROLOG
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Components_ACFThreatManagerComponent_h_15_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Components_ACFThreatManagerComponent_h_15_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Components_ACFThreatManagerComponent_h_15_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Components_ACFThreatManagerComponent_h_15_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Components_ACFThreatManagerComponent_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Components_ACFThreatManagerComponent_h_15_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Components_ACFThreatManagerComponent_h_15_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Components_ACFThreatManagerComponent_h_15_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> AIFRAMEWORK_API UClass* StaticClass<class UACFThreatManagerComponent>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AIFramework_Public_Components_ACFThreatManagerComponent_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

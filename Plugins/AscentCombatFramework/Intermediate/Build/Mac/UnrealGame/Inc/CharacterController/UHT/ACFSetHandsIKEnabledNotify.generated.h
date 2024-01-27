@@ -1,0 +1,66 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Animation/ACFSetHandsIKEnabledNotify.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef CHARACTERCONTROLLER_ACFSetHandsIKEnabledNotify_generated_h
+#error "ACFSetHandsIKEnabledNotify.generated.h already included, missing '#pragma once' in ACFSetHandsIKEnabledNotify.h"
+#endif
+#define CHARACTERCONTROLLER_ACFSetHandsIKEnabledNotify_generated_h
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CharacterController_Public_Animation_ACFSetHandsIKEnabledNotify_h_17_SPARSE_DATA
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CharacterController_Public_Animation_ACFSetHandsIKEnabledNotify_h_17_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CharacterController_Public_Animation_ACFSetHandsIKEnabledNotify_h_17_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CharacterController_Public_Animation_ACFSetHandsIKEnabledNotify_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CharacterController_Public_Animation_ACFSetHandsIKEnabledNotify_h_17_ACCESSORS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CharacterController_Public_Animation_ACFSetHandsIKEnabledNotify_h_17_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUACFSetHandsIKEnabledNotify(); \
+	friend struct Z_Construct_UClass_UACFSetHandsIKEnabledNotify_Statics; \
+public: \
+	DECLARE_CLASS(UACFSetHandsIKEnabledNotify, UAnimNotify, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CharacterController"), NO_API) \
+	DECLARE_SERIALIZER(UACFSetHandsIKEnabledNotify)
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CharacterController_Public_Animation_ACFSetHandsIKEnabledNotify_h_17_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UACFSetHandsIKEnabledNotify(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UACFSetHandsIKEnabledNotify(UACFSetHandsIKEnabledNotify&&); \
+	NO_API UACFSetHandsIKEnabledNotify(const UACFSetHandsIKEnabledNotify&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UACFSetHandsIKEnabledNotify); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UACFSetHandsIKEnabledNotify); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UACFSetHandsIKEnabledNotify) \
+	NO_API virtual ~UACFSetHandsIKEnabledNotify();
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CharacterController_Public_Animation_ACFSetHandsIKEnabledNotify_h_14_PROLOG
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CharacterController_Public_Animation_ACFSetHandsIKEnabledNotify_h_17_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CharacterController_Public_Animation_ACFSetHandsIKEnabledNotify_h_17_SPARSE_DATA \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CharacterController_Public_Animation_ACFSetHandsIKEnabledNotify_h_17_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CharacterController_Public_Animation_ACFSetHandsIKEnabledNotify_h_17_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CharacterController_Public_Animation_ACFSetHandsIKEnabledNotify_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CharacterController_Public_Animation_ACFSetHandsIKEnabledNotify_h_17_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CharacterController_Public_Animation_ACFSetHandsIKEnabledNotify_h_17_INCLASS_NO_PURE_DECLS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CharacterController_Public_Animation_ACFSetHandsIKEnabledNotify_h_17_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> CHARACTERCONTROLLER_API UClass* StaticClass<class UACFSetHandsIKEnabledNotify>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_CharacterController_Public_Animation_ACFSetHandsIKEnabledNotify_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

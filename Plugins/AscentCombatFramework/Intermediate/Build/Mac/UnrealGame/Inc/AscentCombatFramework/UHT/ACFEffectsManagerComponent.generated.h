@@ -1,0 +1,82 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Components/ACFEffectsManagerComponent.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UDamageType;
+enum class ELocomotionState : uint8;
+struct FACFDamageEvent;
+struct FBaseFX;
+struct FGameplayTag;
+#ifdef ASCENTCOMBATFRAMEWORK_ACFEffectsManagerComponent_generated_h
+#error "ACFEffectsManagerComponent.generated.h already included, missing '#pragma once' in ACFEffectsManagerComponent.h"
+#endif
+#define ASCENTCOMBATFRAMEWORK_ACFEffectsManagerComponent_generated_h
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFEffectsManagerComponent_h_16_SPARSE_DATA
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFEffectsManagerComponent_h_16_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFEffectsManagerComponent_h_16_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFEffectsManagerComponent_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleDamageReceived); \
+	DECLARE_FUNCTION(execGetNoiseToEmitByLocomotionState); \
+	DECLARE_FUNCTION(execGetNoiseToEmitForCurrentLocomotionState); \
+	DECLARE_FUNCTION(execTryGetDamageFX); \
+	DECLARE_FUNCTION(execPlayHitReactionEffect); \
+	DECLARE_FUNCTION(execOnDamageImpactReceived); \
+	DECLARE_FUNCTION(execGetCurrentTerrain); \
+	DECLARE_FUNCTION(execTriggerFootstepFX);
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFEffectsManagerComponent_h_16_ACCESSORS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFEffectsManagerComponent_h_16_CALLBACK_WRAPPERS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFEffectsManagerComponent_h_16_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUACFEffectsManagerComponent(); \
+	friend struct Z_Construct_UClass_UACFEffectsManagerComponent_Statics; \
+public: \
+	DECLARE_CLASS(UACFEffectsManagerComponent, UActorComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/AscentCombatFramework"), NO_API) \
+	DECLARE_SERIALIZER(UACFEffectsManagerComponent)
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFEffectsManagerComponent_h_16_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UACFEffectsManagerComponent(UACFEffectsManagerComponent&&); \
+	NO_API UACFEffectsManagerComponent(const UACFEffectsManagerComponent&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UACFEffectsManagerComponent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UACFEffectsManagerComponent); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UACFEffectsManagerComponent) \
+	NO_API virtual ~UACFEffectsManagerComponent();
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFEffectsManagerComponent_h_14_PROLOG
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFEffectsManagerComponent_h_16_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFEffectsManagerComponent_h_16_SPARSE_DATA \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFEffectsManagerComponent_h_16_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFEffectsManagerComponent_h_16_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFEffectsManagerComponent_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFEffectsManagerComponent_h_16_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFEffectsManagerComponent_h_16_CALLBACK_WRAPPERS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFEffectsManagerComponent_h_16_INCLASS_NO_PURE_DECLS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFEffectsManagerComponent_h_16_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> ASCENTCOMBATFRAMEWORK_API UClass* StaticClass<class UACFEffectsManagerComponent>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AscentCombatFramework_Source_AscentCombatFramework_Public_Components_ACFEffectsManagerComponent_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"../../../arm64/UnrealGame/Development/AscentCoreInterfaces/Module.AscentCoreInterfaces.cpp.o",
+		"../../../arm64/UnrealGame/Development/AscentCoreInterfaces/Module.AscentCoreInterfaces.cpp.o",
+		"../../../x64/UnrealGame/Development/AscentCoreInterfaces/Module.AscentCoreInterfaces.cpp.o",
+		"../../../x64/UnrealGame/Development/AscentCoreInterfaces/Module.AscentCoreInterfaces.cpp.o"
+	]
+}

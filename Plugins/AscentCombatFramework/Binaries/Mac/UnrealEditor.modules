@@ -1,0 +1,27 @@
+{
+	"BuildId": "27405482",
+	"Modules": 
+	{
+		"AIFramework": "UnrealEditor-AIFramework.dylib",
+		"ActionsSystem": "UnrealEditor-ActionsSystem.dylib",
+		"AdvancedRPGSystem": "UnrealEditor-AdvancedRPGSystem.dylib",
+		"AscentCombatFramework": "UnrealEditor-AscentCombatFramework.dylib",
+		"AscentCoreInterfaces": "UnrealEditor-AscentCoreInterfaces.dylib",
+		"AscentEditor": "UnrealEditor-AscentEditor.dylib",
+		"AscentEditorExtensions": "UnrealEditor-AscentEditorExtensions.dylib",
+		"AscentSaveSystem": "UnrealEditor-AscentSaveSystem.dylib",
+		"CharacterController": "UnrealEditor-CharacterController.dylib",
+		"CinematicCameraManager": "UnrealEditor-CinematicCameraManager.dylib",
+		"CollisionsManager": "UnrealEditor-CollisionsManager.dylib",
+		"CombinedAnimationsSystem": "UnrealEditor-CombinedAnimationsSystem.dylib",
+		"CraftingSystem": "UnrealEditor-CraftingSystem.dylib",
+		"ExecutionsSystem": "UnrealEditor-ExecutionsSystem.dylib",
+		"InventorySystem": "UnrealEditor-InventorySystem.dylib",
+		"MountSystem": "UnrealEditor-MountSystem.dylib",
+		"MusicManager": "UnrealEditor-MusicManager.dylib",
+		"SpellActions": "UnrealEditor-SpellActions.dylib",
+		"TargetingSystem": "UnrealEditor-TargetingSystem.dylib",
+		"UnitsSystem": "UnrealEditor-UnitsSystem.dylib",
+		"VehicleSystem": "UnrealEditor-VehicleSystem.dylib"
+	}
+}
