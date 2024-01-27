@@ -75,6 +75,3 @@ DerivedDataCache/*
 
 
 !Plugins/AscentCombatFramework/**/*
-
-Content/ThirdPerson/*
-/Content/PolygonTown/Maps/Demonstration.umap
