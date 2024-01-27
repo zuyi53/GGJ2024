@@ -3,17 +3,7 @@
 	"EngineAssociation": "5.3",
 	"Category": "",
 	"Description": "",
-	"Modules": [
-		{
-			"Name": "GGJ2024",
-			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [
-				"Engine"
-			]
-		}
-	],
-	"Plugins": [
+		"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
 			"Enabled": true,
